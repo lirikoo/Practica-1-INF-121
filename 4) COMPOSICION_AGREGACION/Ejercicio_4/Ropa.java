@@ -7,7 +7,6 @@ public public class Ropa {
         this.material = material;
     }
 
-    // Getters para acceder a los atributos desde Ropero
     public String getTipo() {
         return tipo;
     }

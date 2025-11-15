@@ -30,11 +30,9 @@ public class Bailarin {
     public int getEdad() { return edad; }
     public String getCi() { return ci; }
     
-    // Setters que serán usados por la Fraternidad
     public void setFraternidad(Fraternidad frater) { this.fraternidadPerteneciente = frater; }
     public void setFacultad(Facultad fac) { this.facultadPerteneciente = fac; }
 
-    // Método para ver información de pertenencia (Punto C)
     public void mostrarPertenencia() {
         String fName = (fraternidadPerteneciente != null) ? fraternidadPerteneciente.getNombre() : "N/A";
         String facName = (facultadPerteneciente != null) ? facultadPerteneciente.getNombre() : "N/A";
