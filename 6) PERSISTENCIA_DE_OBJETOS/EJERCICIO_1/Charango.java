@@ -29,3 +29,7 @@ public class Charango {
         return "Charango [Material=" + material + ", Cuerdas=" + nroCuerdas + ", Estado=" + Arrays.toString(cuerdas) + "]";
     }
 }
+
+
+
+son 
